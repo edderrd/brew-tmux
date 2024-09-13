@@ -11,7 +11,7 @@ _brew_tmux_check_command() {
 }
 
 _brew_tmux_outdated_command() {
-  brew outdated --json --greedy >$BREW_TMUX_CACHE_FILE
+  brew outdated --json >$BREW_TMUX_CACHE_FILE
 }
 
 _brew_tmux_outdated_count() {
